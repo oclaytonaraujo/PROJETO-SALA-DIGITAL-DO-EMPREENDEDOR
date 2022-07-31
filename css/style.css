@@ -1,0 +1,145 @@
+object {
+	width: 100%;
+
+}
+
+
+:root {
+
+    --azul: #4775B9;
+    --cinza: #CFCECC;
+    --vermelho: #C03135;
+    --verde: #449453;
+    --branco: #FEFEFE;
+
+}
+
+
+
+body{
+	margin: auto;
+	text-align: center;
+	background-color: var(--cinza);
+}
+
+main {
+	background-color: var(--branco);
+	padding: 50px;
+	margin: auto;
+}
+
+header{
+   
+    background-color: #4775B9;
+    justify-content: space-around;
+    color: var(--branco);
+}
+
+ul {
+    color: var(--branco);
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav img {
+    width: 150px;
+}
+
+
+.nav-item:nth-child(3){
+    background-color: var(--verde) ;
+
+    
+}
+
+input {
+	margin: 2%;
+	width: 800px;
+	padding: 20px 0;
+	border-radius: 5px;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	font-size: 20px;
+
+}
+
+h1{
+	align-items: center;
+	margin: 2% 0;
+	font-weight: 700;
+}
+
+.empreendedores {
+	margin: 5% 0;
+}
+
+h2 {
+	text-align: left;
+	margin: 4% 0;
+}
+
+
+
+
+.container-one {
+	margin: 2% 0;
+	display: flex;
+	gap:30px;
+	flex-wrap: wrap;
+    flex-direction: row;
+	flex-grow: 1;
+
+}
+
+
+
+.alimentacao{
+	display: flex;
+	align-items: center;
+	width: 210px;
+	height: 100px;
+	background-color: #F8F8FF;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+ 
+}
+
+.logo-empresa {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color: #449453;
+	float: left;
+	margin: 8px 8px;
+	border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 896px) {
+main {
+	width: 100%;
+	padding: 0;
+	}
+
+	img {
+		width: 50%
+	};
+
+	::-webkit-input-placeholder {
+		font-size: 10px;
+	};
+	input {
+		padding: 0;
+	}
+.container-one  {
+	justify-content: space-around;
+}
+
+.container-two {
+	justify-content: space-around;
+}
+
+  }
