@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 object {
 	width: 100%;
-
 }
 
 *{
@@ -18,7 +17,7 @@ object {
     --azul: #487BBC ;
     --verde: #4BAF5C;
     --vermelho: #A83334;
-    --cinza: #CAC7C7;
+    --cinza: #CFCECC;
     --branco: #FEFEFE;
 }
 
@@ -65,8 +64,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--branco);
-    background-color: var(--azul);
+    color: black;
+    background-color: var(--cinza);
 }
 
 footer figure{
@@ -79,6 +78,9 @@ footer figure{
 footer h3{
     display: inline-block;
     margin: 15px;
+    font-size: 0.8em;
+    position: absolute;
+    right: 20%;
 }
 
 footer img{
@@ -156,6 +158,35 @@ h1{
 
 .banner-fourth{
     background-color: var(--azul);
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.banner-fourth div{
+    height: 40%;
+    width: 10%;
+    border-radius: 20px;
+    background-color: var(--branco);
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.banner-fourth div:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.685);
+}
+
+.banner-fourth a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.banner-fourth h1{
+    color: var(--branco);
 }
 
 .banner-fifth{
@@ -192,7 +223,6 @@ h1{
     background-color: var(--verde);
     border: none;
     border-radius: 20px;
-    /* box-shadow: 3px 2px 3px rgba(19, 19, 19, 0.685); */
 }
 
 .banner-fifth article div a{
@@ -216,12 +246,42 @@ h1{
 
 .banner-sixth{
     background-color: var(--azul);
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.banner-sixth button{
+    width: 40%;
+    height: 15%;
+    background-color: var(--verde);
+    border-radius: 20px;
+    font-size: 2em;
+    border: 0;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.219)
+
+}
+.banner-sixth img{
+    height: 100%;
+}
+
+.banner-sixth figure{
+    height: 60%;
+}
+
+.banner-sixth a{
+    text-decoration: none;
+    color: var(--branco);
 }
 
 .banner-seventh{
     background-color: var(--branco);
     flex-direction: column;
     height: 100%;
+}
+
+.banner-sixth button:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.685);
 }
 
 .banner-seventh h1{
