@@ -294,6 +294,11 @@ summary, details p{
     margin: 2%;
 }
 
+details p{
+    color: rgb(110, 110, 110);
+    font-size: 1.1em;
+}
+
 details{
     width: 80%;
 }
